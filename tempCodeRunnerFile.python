@@ -1,0 +1,5 @@
+try:
+    import tkinter
+    print("tkinter está instalado")
+except ImportError:
+    print("tkinter não está instalado")
